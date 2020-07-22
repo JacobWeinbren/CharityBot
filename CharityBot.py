@@ -3,8 +3,8 @@ import tweepy, logging
 
 logger = logging.basicConfig()
 
-auth = tweepy.OAuthHandler("fNUtHsbyjX2n3zNoBOLmFfpPA", "1v9Nfknvm0Q82Vps3xcoQgvFIkAMAJCDRDHsJmvpn9w9qJoEPr")
-auth.set_access_token("987305245389803520-tt4CLdUli1v3T6tFs8pADfZhygcSJXY", "CU4G93o1hw97ry6sOdQWiHym8vpfQ071gw9jo42PcN8vi")
+auth = tweepy.OAuthHandler()
+auth.set_access_token()
 
 api = tweepy.API(auth)
 
